@@ -1,0 +1,29 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+:root {
+    --blue-purple: #231F42;
+    --pink: #F56B9A;
+    --White: #FFFFFF;
+ 
+    --blue: #01476D;
+    --blue-green: #054553;
+    --btn-yellow: #F4B315;
+  
+    --header-font-family: Helvetica, sans-serif;
+    --header-font-size: 14px;
+    --header-font-weight: 700;
+  
+    --heading-font-family: Arial, Helvetica, sans-serif;
+    --heading-font-size: 30px;
+    --heading-font-weight: 500;
+  
+    --desc-font-family: Arial, Helvetica, sans-serif;
+    --desc-font-size: 14px;
+    --desc-font-weight: 400;
+  
+  }

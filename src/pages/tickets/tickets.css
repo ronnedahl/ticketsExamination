@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,700&display=swap');
+*{
+
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+
+    min-height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tickets-wrapper{
+
+    height: 1020px;
+    width: 480px;
+    
+    background: linear-gradient(180deg, #F56B9A 0%, #231F42 100%);
+}
+
+.tickets{
+
+    width:85%;
+    height: 80vh;
+   
+    margin:0 auto;
+}
+
+.tickets__box{
+
+    width:400px;
+    height: 570px;
+    background-color: white;
+    
+}
+
+.tickets__container{
+  border-radius:10px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+P{
+
+    color:white#000000;
+    
+    margin-left:15px
+}
+
+.tickets__box-title h1{
+color:var(--pink);
+font-size:3rem;
+margin-left:15px
+
+}
+
+.tickets__box-dottedline{
+   
+    height: 1px;
+    width:100%;
+    margin-top:30px;
+    border:1px dotted black;
+}
+
+.tickets__box-place{
+margin-left:15px;
+font-size: 18px;
+font-weight: 900;
+font-family:'Arial, Helvetica, sans-serif';
+}
+
+
+
+.tickets__box-adress{
+    margin-top:10px;
+    margin-left:15px;
+    color:black;
+    opacity: 60%;
+}
+
+
+
+.tickets__containerbox{
+    display:flex;
+    width:100%;
+    height:80px;
+    border:1px dotted black;
+    margin-top:3rem
+    
+}
+
+.tickets__smallbox-1{
+
+    width:100%;
+    border:1px dotted black;
+    
+}
+
+.tickets__smallbox-2{
+
+    width:100%;
+    border:1px dotted black;
+}
+
+.tickets__smallbox-3{
+
+    width:100%;
+    border:1px dotted black;
+}
+
+.tickets__smallbox-1-container{
+ 
+display:flex;
+flex-direction: column;
+
+}
+
+.tickets__smallbox-1-container h3{
+    font-size:2rem;
+    margin-bottom:10px;
+    
+}
+
+.info{
+   margin-top:20px 
+    
+}
+.section{
+    margin-left:15px;
+    opacity: 60%;
+
+}
+
+.tickets__barcode{
+
+width: 311px;
+height: 80px;
+margin-top:4rem;
+margin-left:15px;
+margin:0 auto;
+font-family: 'Libre Barcode 128';
+font-style: normal;
+font-size: 111px;
+line-height: 101px;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.tickets__barcode-text{
+   margin-top:4rem 
+    
+}
+
+.tickets__randomID{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tickets__randomID h5{
+
+    letter-spacing: 0.5rem;
+}
