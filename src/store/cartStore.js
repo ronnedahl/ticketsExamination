@@ -11,3 +11,4 @@ clearCart: () => set({cart:[]}),
 
 setCountTickets: (count) => set({ countTickets: count }), 
 }))
+

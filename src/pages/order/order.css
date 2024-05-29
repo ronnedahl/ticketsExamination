@@ -15,6 +15,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index:1;
 }
 
 .order {
@@ -30,7 +31,7 @@ body {
     text-align: center;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--pink);
+    color: white;
     margin-top: 2rem;
     font-style:italic  
 }
@@ -125,7 +126,8 @@ body {
     display:flex;
     justify-content: center;
     
-    margin-bottom:2rem;
+    margin-bottom:3rem;
+    z-index: 999;
     
   
     

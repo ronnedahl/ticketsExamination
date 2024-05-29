@@ -90,9 +90,9 @@ margin-top:15px;
 .events__number{
     margin-right:30px;
     border:2px solid white;
-    padding:20px;
-    width: 86px;
-    height:86px;
+    padding:15px;
+    min-width: 86px;
+    min-height:86px;
     display:flex;
     flex-direction: column;
     justify-content: center;

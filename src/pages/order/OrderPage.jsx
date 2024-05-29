@@ -1,9 +1,9 @@
 import React from 'react';
 import './order.css';
 import { useCartStore } from '../../store/cartStore';
-import Navigation from '../../Components/navigation/Navigation';
 import Orderbox from '../../Components/orderbox/Orderbox';
-import { Link } from'react-router-dom';
+import { Link } from 'react-router-dom';
+import { useTicketStore } from '../../store/ticketStore'
 
 function OrderPage() {
   const { cart } = useCartStore();
@@ -14,15 +14,15 @@ function OrderPage() {
         <div className='order__title'>
           <h1>Order</h1>
         </div>
-        
-       <Orderbox />
+
+        <Orderbox />
       </div>
-    <div className='order__button'>
-    <Link to="/tickets">
-    <button>Skicka Order</button>
-    </Link>
-    </div>
-    <Navigation/>
+      <div className='order__button'>
+        <Link to="/tickets">
+          <button>Skicka Order</button>
+        </Link>
+      </div>
+
     </div>
   );
 }

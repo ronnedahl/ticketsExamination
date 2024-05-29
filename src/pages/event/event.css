@@ -60,7 +60,7 @@ margin-top:3rem;
 }
 
 .event__text h3{
-    font-size:2.5rem;
+    font-size:2.4rem;
     color:var(--pink);
     font-weight:700;
 }
@@ -86,7 +86,7 @@ margin-top:3rem;
 .event__box{
 width:230px;
 height: 130px;
-border:4px solid purple;
+border:2px solid var(--pink);
 display:flex;
 flex-direction: column;
 
@@ -110,7 +110,7 @@ flex-direction: column;
 
 .event__box-2{
     display:flex;
-    border:1px solid red;
+    border:1px solid var(--pink);
     width:100%;
     flex: 1
 }
@@ -119,7 +119,7 @@ flex-direction: column;
     display:flex;
     justify-content: center;
     align-items: center;
-    border:1px solid red;
+    border:1px solid var(--pink);
     width:100%;
     flex:1;
     color:white;
@@ -132,7 +132,7 @@ flex-direction: column;
     display:flex;
     justify-content: center;
     align-items: center;
-    border:1px solid red;
+    border:1px solid var(--pink);
     width:100%;
     flex:1;
     color: white;
@@ -144,7 +144,7 @@ flex-direction: column;
     display:flex;
     justify-content: center;
     align-items: center;
-    border:1px solid red;
+    border:1px solid var(--pink);
     width:100%;
     flex:1;
     color:white;
@@ -157,7 +157,7 @@ flex-direction: column;
         display:flex;
         justify-content: center;
         
-        margin-top:3rem;
+        margin-top:2rem;
         
       
         
